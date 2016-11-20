@@ -1,0 +1,1 @@
+gcc -Wall -ggdb main.c  -IE:/ffmpeg-3.2/ffmpeg-3.2/ -LE:/cppcmd/ffmpegvideo/ffmpegvideo/lib -lavformat -lavdevice -lavcodec -lavutil -lswresample -liconv -lws2_32 -lswscale -lm -pthread -o test.exe
